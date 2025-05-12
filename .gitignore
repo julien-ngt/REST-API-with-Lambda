@@ -1,0 +1,30 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+
+# Python Lambda (assuming your Lambda code is in a 'terraform/lambda' directory)
+terraform/lambda/__pycache__/
+terraform/lambda/*.pyc
+terraform/lambda/*.egg-info/
+terraform/lambda/venv/
+terraform/lambda/.venv/
+
+# ZIP files (if you're not explicitly tracking them)
+terraform/*.zip
+
+# Environment files (if you have any locally)
+.env
+
+# IDE specific files (example for VS Code - adjust for your IDE)
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
