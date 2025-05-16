@@ -122,4 +122,3 @@ To avoid incurring unnecessary AWS costs, you should destroy the resources creat
 * Set up custom domain names and SSL certificates for the API Gateway.
 * Implement more robust error handling in the Lambda function.
 * Use environment variables for configuration.
-
